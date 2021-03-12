@@ -1,6 +1,6 @@
 /*********************************************************************************
 * (Create four fans) Write a program that places four fans in a GridPane with    *
-* two rows and two columns, as shown in Figure 14.45b.                           *
+* two rows and two columns   *
 *********************************************************************************/
 import javafx.application.Application;
 import javafx.stage.Stage;
@@ -14,8 +14,8 @@ import javafx.scene.shape.ArcType;
 import javafx.scene.paint.Color;
 import javafx.geometry.Insets;
 
-public class Exercise_14_09 extends Application {
-	@Override // Override the start method in the Application class
+public class createfourfans extends Application {
+	 // Override the start method in the Application class
 	public void start(Stage primaryStage) {
 		// Create a GridPane and set its properties
 		GridPane gridPane = new GridPane();
@@ -42,7 +42,7 @@ public class Exercise_14_09 extends Application {
 
 		// Create a scene and place in in the stage
 		Scene scene = new Scene(gridPane);
-		primaryStage.setTitle("Exercise_14_09"); // Set the stage title
+		primaryStage.setTitle("createfourfans"); // Set the stage title
 		primaryStage.setScene(scene); // Place the scene in the stage
 		primaryStage.show(); // Display the stage
 	}
